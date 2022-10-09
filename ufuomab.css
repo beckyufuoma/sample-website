@@ -1,0 +1,55 @@
+.good{
+    display: flex;
+    justify-content: space-between;
+}
+.good p{
+    margin:30px;
+    font-size: 20px;
+    padding: 50px;
+}
+#nav{
+    background-color: #000;
+     overflow: hidden;
+     margin: 0;
+    height: 60px;
+    width: 100%;
+    padding: 0;
+    justify-items: center;
+    text-align: center;
+
+}
+#nav a{
+    color:aqua;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 30px;
+}
+#nav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+#nav a.active{
+    background-color: #4CAF50;
+    color: white;
+} 
+#foot{
+    background-color: #000;
+    overflow: hidden;
+    text-align: center;
+    height:50px;
+    padding:20px
+}
+#foot a{
+    color: 000080;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 40px;
+}
+#foot a:hover{
+    background-color: #ddd;
+    color: f08080;
+}
+#foot a.active{
+    background-color: #4CAF50;
+    color: white;
+}
